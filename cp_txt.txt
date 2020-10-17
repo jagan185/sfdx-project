@@ -1,0 +1,9 @@
+sfdx force:auth:web:login --setdefaultdevhubusername --setalias resilient-bear-kauucc_dx_source_control
+
+jagan185@resilient-bear-kauucc.com
+6Y4mMq4AWCNjCyh
+
+sfdx force:config:set defaultdevhubusername=resilient-bear-kauucc_dx_source_control --global
+defaultdevhubusername  resilient-bear-kauucc_dx_source_control  true
+
+sfdx force:project:create --projectname sfdx-chan
